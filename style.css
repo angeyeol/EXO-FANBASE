@@ -1,0 +1,62 @@
+body {
+	margin: 0;
+	margin-left; 
+ 	background-color:black;
+ 	background-image: url("BACKGROUND.jpg");
+	color:violet;
+
+	font-size: 20px;
+}
+
+header{
+	background: #333;
+	color: white;
+	margin: 0;
+	font-size: 15px;
+}
+
+header h1 {
+	margin: 0;
+	float: left;
+	padding: 10px 0 10px 15px;
+	font-size: 18px;
+	color: pink;
+
+}
+
+header a {
+	color: white;
+    text-decoration: none;
+	margin:0 auto;
+	color: pink;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+	
+}
+
+nav li {
+    float: left;
+
+}
+
+nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color:violet;
+}
+
+nav .active {
+    background-color: pink;
+}
